@@ -1,12 +1,12 @@
 import React from "react";
 
 
-function Awards() {
+function Navbar() {
     return ( 
         <div>
-           <h1> Awards Section</h1>
+           <h1> Navbar Section</h1>
         </div>
      );
 }
 
-export default Awards;
+export default Navbar;
