@@ -13,15 +13,7 @@ root.render(
   <React.StrictMode>
 
        <HomePage />
-       <br />
-       <AboutPage />  
-       <br />
-       <PricingPage />
-        <br />
       
-    
-        
-      <ProductsUniverse />
 
   
   </React.StrictMode>

@@ -11,7 +11,7 @@ function PricingPage() {
             <hr />
              
              <p>Pricing section </p>
-             <img src="" alt="image" />
+         
 
 
             <Hero />
