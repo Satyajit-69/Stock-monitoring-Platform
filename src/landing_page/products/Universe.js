@@ -7,20 +7,20 @@ function ProductsUniverse() {
     return (
 
          <>
-
+        
          <div className="product">
 
-          <Navbar />
+          
          <hr />
           <HeroProducts />
           <LeftSection />
           <RightSection />
          <hr />
-         <Footer />
+      
          
 
          </div>
-        
+          
          
        
          </>

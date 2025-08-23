@@ -12,11 +12,11 @@ function Navbar() {
       
           <div className="navbar-links">
             
-            <a href="./">Sign up</a>
-            <a href="./">About</a>
-            <a href="./">Products</a>
-            <a href="./">Pricing</a>
-            <a href="./">Support</a>
+            <a href="/signup">Sign up</a>
+            <a href="/about">About</a>
+            <a href="/products">Products</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/support">Support</a>
             <i class="fa-solid fa-bars"></i>
 
           </div>

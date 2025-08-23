@@ -13,7 +13,7 @@ function Footer() {
 
                </div>
 
-               <div className="col">
+               <div className="col">    
 
                    <p>Account</p>
 

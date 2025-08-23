@@ -5,9 +5,9 @@ import Hero from "./Hero";
 
 function PricingPage() {
     return (
-        <> 
+        <>  
             <div className="price">
-            <Navbar />
+           
             <hr />
              
              <p>Pricing section </p>
@@ -17,11 +17,11 @@ function PricingPage() {
             <Hero />
             <Brokerage />
             <hr />
-            <Footer />
+         
 
 
             </div>
-         
+            
         </>
     );
 }
