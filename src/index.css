@@ -3,11 +3,6 @@ body {
   background: rgba(255, 255, 255, 0.351);
 }
 
-
-p{
-  text-align: center;
-}
-
 .product {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
@@ -28,19 +23,17 @@ p{
   flex-direction: column;
 }
 
- .home-hero {
-   font-family: "Nunito", sans-serif;
+.home-hero {
+  font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight :500;
+  font-weight: 500;
   font-style: normal;
 }
 
-
 .home-hero h1 {
-  font-family :Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 200px;
   font-weight: 300;
-  
 }
 
 .price {
@@ -51,4 +44,273 @@ p{
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+/* Left Column (Text Section) */
+.left-brokerage {
+  font-family: "Nunito", sans-serif;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.left-brokerage h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.left-brokerage h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.left-brokerage p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #666;
+  margin: 0 0 1.5rem 0;
+  text-indent: 0;
+  padding: 0;
+}
+
+.left-brokerage a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.left-brokerage a:hover {
+  text-decoration: underline;
+}
+
+/* Right Column (Image + Links) */
+.right-brokerage img {
+  max-height: 600px;
+  width: 100%;
+}
+
+.right-brokerage .links {
+  margin-top: 1.5rem;
+}
+
+.right-brokerage .links a {
+  color: #387ed1;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 0.8rem;
+}
+
+/* Pricing Section - Homepage */
+.pricing-home {
+  padding: 4rem 0;
+  align-items: center !important;
+}
+
+.pricing-home h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-home p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-home a {
+  color: #387ed1;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.pricing-home a:hover {
+  color: #2563eb;
+}
+
+.pricing-container {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  height: 200px !important;
+}
+
+.pricing-box {
+  flex: 1;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+/* Pricing box content styling */
+.pricing-box img {
+  height: 4rem;
+  width: auto;
+  margin-bottom: 1rem;
+
+}
+
+.pricing-box p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  justify-content: center; align-items: center;
+ 
+}
+
+
+/* Responsive design */
+@media (max-width: 991px) {
+  .pricing-home {
+    flex-direction: column;
+
+  }
+  
+
+  .pricing-container {
+    margin-top: 2rem;
+  }
+  
+  .pricing-box {
+    padding: 1.5rem 1rem;
+  }
+  
+  .pricing-box img {
+    height: 3.5rem;
+  }
+  
+  .pricing-home h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-container {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+  
+  .pricing-box {
+    padding: 2rem 1.5rem;
+    min-height: 120px;
+  }
+  
+  .pricing-box img {
+    height: 3rem;
+  }
+  
+  .pricing-box p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-home h3 {
+    font-size: 1.8rem;
+  }
+  
+  .pricing-home p {
+    font-size: 1rem;
+  }
+  
+  .pricing-box {
+    padding: 1.5rem;
+    min-height: 100px;
+  }
+  
+  .pricing-box img {
+    height: 2.5rem;
+  }
+  
+  .pricing-box p {
+    font-size: 0.75rem;
+  }
+}
+
+
+.education-section p {
+  margin-bottom: 0.3rem; /* Normal default 1rem thae, setha kama karila */
+}
+
+.education-section a {
+  display: inline-block;
+  margin-top: 0.2rem; /* link pakhare spacing fix kariba */
+}
+
+.open-account {
+    font-family: "Nunito", sans-serif;
+}
+
+
+.footer a {
+  text-decoration: none;
+    font-family: "Nata Sans", sans-serif;
+    color: #666;
+    opacity: 0.9;
+
+}
+
+.footer-address {
+    font-family: "Nata Sans", sans-serif;
+    font-size:10px ;
+  font-style: normal;
+}
+
+
+.quick-links {
+    width: 100%;
+    margin-bottom: 4rem;
+    font-size: smaller;
+  
+}
+
+
+.footer > .row > .col > p {
+     font-family: "Nunito", sans-serif;
+}
+
+
+
+.navbar {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  /* Glass Effect */
+  background: rgba(255, 255, 255, 0.1); /* semi transparent */
+  backdrop-filter: blur(10px); /* blur effect */
+  -webkit-backdrop-filter: blur(10px); /* safari support */
+
+  /* Extras */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-links {
+     font-family: "Nata Sans", sans-serif;
+     color: black;
+     text-decoration: none;
+     margin-right: 3rem;
+}
+
+.navbar-links a {
+  color: rgb(94, 93, 93);
+  text-decoration: none;
+  margin-right: 3rem;
 }
