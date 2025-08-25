@@ -5,9 +5,9 @@ function Navbar() {
     return ( 
          <>
          
-         <nav className="navbar bg-body-primary border-bottom p-4 " style={{height : '4.5rem' ,position : 'fixed' , width :'100%'}}>
-          <div class="container-fluid">
-   
+         <nav className="navbar bg-body-primary border-bottom p-2 " style={{height : '4.5rem' ,position : 'fixed' , width :'100%'}}>
+          <div class="container-fluid p-3">
+           
           <img src="assets/logo.svg" alt="Logo"  height="24" className ="pt-1" style={{maxWidth : '20%' , height : '24px' ,marginLeft : '7rem'}} />
       
           <div className="navbar-links">

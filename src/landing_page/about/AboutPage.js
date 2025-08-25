@@ -1,22 +1,13 @@
 import Hero from "../about/Hero";
-import TeamSection from "../about/Team" ;
-import Footer from "../footer";
-import Navbar from "../Navbar";
+import TeamSection from "./Team";
+
+
 function AboutPage() {
     return ( 
 
       <>
-    
-      <div className="about">
-        
-          <hr />
-          <h2>This is the about page </h2>
-          <Hero />
+           <Hero />
           <TeamSection />
-          <hr />
-        
-
-      </div>
       
       </>
      );
