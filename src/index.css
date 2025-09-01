@@ -77,27 +77,7 @@ body {
   font-weight: 300;
 }
 
-/* Example section styling */
-.product,
-.about,
-.price {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  text-align: center;
-  padding: 4rem 2rem;
-  margin-top: 5rem;
-  border-radius: 8px;
-}
 
-.product {
-  background: rgb(153, 0, 255);
-}
-.about {
-  background: rgb(0, 255, 106);
-}
-.price {
-  background: rgb(255, 160, 17);
-}
 
 /* Footer */
 .footer {
@@ -142,4 +122,13 @@ body {
   .home-hero h1 {
     font-size: 80px;
   }
+}
+
+
+.partner-logo {
+  max-height: 80px;   /* sabu logo uniform height */
+  width: auto;        /* auto adjust kariba */
+  display: block;     
+  margin: 0 auto;     /* center align */
+  object-fit: contain;
 }
