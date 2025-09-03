@@ -1,5 +1,4 @@
-import Footer from "../footer";
-import Navbar from "../Navbar";
+
 import SupportHero from "./Hero";
 import TicketSection from "./Ticket";
 
@@ -7,15 +6,15 @@ import TicketSection from "./Ticket";
 function SupportPage() {
     return (
         <>
-            <Navbar />
-            <hr />
-               <SupportHero />
-              <TicketSection />
+            
+        
+                <SupportHero />
+                <TicketSection />
 
 
 
-            <hr />
-            <Footer />
+    
+            
         </>
     );
 }
