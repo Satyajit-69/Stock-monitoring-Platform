@@ -93,7 +93,7 @@ function TicketSection() {
           <div
             className="fandq p-3 mb-4 "
             style={{
-              backgroundColor: "artyellow",
+              backgroundColor: "yellow",
               borderLeft: "10px solid orange ",
             }}
           >
