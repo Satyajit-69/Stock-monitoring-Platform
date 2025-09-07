@@ -42,7 +42,7 @@ body {
 .navbar-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .navbar-links a {
@@ -116,7 +116,7 @@ body {
   }
 
   .navbar-links {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .home-hero h1 {

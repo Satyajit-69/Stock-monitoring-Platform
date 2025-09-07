@@ -10,7 +10,7 @@ function Navbar() {
            
           <img src="assets/logo.svg" alt="Logo"  height="24" className ="pt-1" style={{maxWidth : '20%' , height : '24px' ,marginLeft : '7rem'}} />
       
-          <div className="navbar-links">
+          <div className="navbar-links mr-2">
             
             <a href="/signup">Sign up</a>
             <a href="/about">About</a>
